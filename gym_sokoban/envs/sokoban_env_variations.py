@@ -34,7 +34,7 @@ class SokobanEnv_Small0(SokobanEnv):
 
     def __init__(self):
         super(SokobanEnv_Small0, self).__init__(
-            dim_room=(7, 7), max_steps=200, num_boxes=2
+            dim_room=(7, 7), max_steps=200, num_boxes=1
         )
 
 

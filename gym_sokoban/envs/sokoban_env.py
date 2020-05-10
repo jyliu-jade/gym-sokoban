@@ -14,7 +14,7 @@ class SokobanEnv(gym.Env):
 
     def __init__(self,
                  dim_room=(10, 10),
-                 max_steps=120,
+                 max_steps=2,
                  num_boxes=4,
                  num_gen_steps=None,
                  reset=True):
